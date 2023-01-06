@@ -40,6 +40,7 @@ header{
 .my-failures{
     display: flex;
     margin-top: 131px;
+    margin-left: 130px;
 }
 .my-failures .title{
     font-weight: 700;
@@ -63,5 +64,32 @@ header{
 }
 .my-failures .checkmark{
     color: #16D887;
+}
+
+/* My Plan styles */
+.my-plan{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 130px;
+    padding: spacebeteen;
+}
+.items{
+    display: flex;
+}
+.my-plan-title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.plan-item-description{
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 500;
+    font-size: 25px;
+}
+.plan-item{
+    padding-left: 80px;
+    text-align: center;
 }
 
