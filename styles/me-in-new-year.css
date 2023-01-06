@@ -25,12 +25,43 @@ header .header-description {
     margin-top: 24px;
     top: 578px;
     border-radius: 5px;
+    font-weight: 600;
     font-size: 20px;
     background: #F15B22;
     color: #ffffff;
     border: none;
+    margin-bottom: 140px;
 }
 header{
     background-image: url(/images/banner/banner1.png);
+}
+
+/* Failures Section Styles */
+.my-failures{
+    display: flex;
+    margin-top: 131px;
+}
+.my-failures .title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: left;
+    padding: 370px 230px 0 87px;
+
+}
+.my-failures .description{
+    text-align: left;
+    padding: 0 230px 0 87px;
+
+
+}
+
+.my-failures .failures-list{
+    list-style: none;
+    text-align: left;
+    padding: 0 230px 0 87px;
+}
+.my-failures .checkmark{
+    color: #16D887;
 }
 
