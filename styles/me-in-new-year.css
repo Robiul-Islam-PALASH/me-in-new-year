@@ -1,4 +1,4 @@
-* {
+* { 
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
@@ -40,7 +40,7 @@ header{
 /* Failures Section Styles */
 .my-failures{
     display: flex;
-    margin-top: 131px;
+    margin-top: 60px;
     margin-left: 130px;
 }
 .my-failures .title{
@@ -94,13 +94,69 @@ header{
     text-align: center;
 }
 
+/* Hobby Styles */
+.hobby-title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.photography-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #F15B22;
+    text-align: left;
+
+}
+.photography-description{
+    padding: 55px;
+    font-size: 20px;
+    color: #f8f8f8;
+}
+.photography{
+    background-image: url(/images/banner/photography-bg.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+    margin-left: 250px;
+}
+.photography-title{
+    padding-left: 10px;
+    
+}
+.riding-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #F15B22;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    justify-content: center;
+}
+.riding-description{
+    padding: 60px;
+    font-size: 20px;
+    color: #f8f8f8;
+}
+.riding-text{
+    background-image: url(/images/banner/rider-bg.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+    margin-left: 25px;
+}
+.hobby-text{
+    display: flex;
+}
+
 /* Call Now Styles */
 .call-now-title{
     font-weight: 700;
     font-size: 40px;
-    padding-top: 70px;
-    padding-left: 160px;
-    padding-right: 617px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 417px;
     color: #ffffff;
     
 }
@@ -112,21 +168,25 @@ header{
     border-radius: 5px;
     border: none;
     color: #F15B22;
-    margin-left: 160px;
+    margin-left: 80px;
 }
 .call-now{
-    background-image: url(/images/watch.png);
+
+    background: linear-gradient(to left, transparent, #F15B22), url(/images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+    width: 1000px;
     margin-top: 170px;
-
+    margin-left: 160px;
+    border-radius: 5px;
+    
 }
 
 /* Footer Section */
 footer{
     height: 500px;
-    width: 1350px;
+    width: 100%;
     background-color: #151414;
     margin-top: 130px;
     padding-top: 150px;
